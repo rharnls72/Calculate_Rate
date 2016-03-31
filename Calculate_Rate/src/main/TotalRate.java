@@ -1,3 +1,4 @@
+package Calculate_Rate;
 public class TotalRate {
 	private User userer user;
 	private Plan plan;
