@@ -1,3 +1,4 @@
+package Calculate_Rate;
 public class Silver {
 	private double sexcessminuterate = 0.54;
 	private double sincludedMinutes = 500;
