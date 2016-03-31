@@ -1,3 +1,4 @@
+package Calculate_Rate;
 public class User {
 	private String type;
 	private int numberofline;
