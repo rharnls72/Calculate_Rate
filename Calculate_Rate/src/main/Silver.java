@@ -1,4 +1,4 @@
-package Calculate_Rate;
+package src/main;
 public class Silver {
 	private double sexcessminuterate = 0.54;
 	private double sincludedMinutes = 500;
