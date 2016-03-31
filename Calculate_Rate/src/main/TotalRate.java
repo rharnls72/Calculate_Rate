@@ -1,4 +1,4 @@
-package Calculate_Rate;
+package src/main;
 public class TotalRate {
 	private User userer user;
 	private Plan plan;
