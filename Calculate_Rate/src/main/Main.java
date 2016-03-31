@@ -1,16 +1,16 @@
 public class Main {
 	public static void main(String[] args){
 		TotalRate totalrate;
-		System.out.print("Type : ");
+		System.err.print("Type : ");
 		Scanner input = new Scanner(System.in);
 		String type = input.nextLine();
-		System.out.print("Line : ");
+		System.err.print("Line : ");
 		int line = input.nextInt();
-		System.out.print("Minutes : ");
+		System.err.print("Minutes : ");
 		double minutes = input.nextDouble();
 			
 		User user1 = new User(type, line, minutes);
 		totalrate = new TotalRate(user1);
-		System.out.println(totalrate.getTotalrate());
+		System.err.println(totalrate.getTotalrate());
 	}		
 }
