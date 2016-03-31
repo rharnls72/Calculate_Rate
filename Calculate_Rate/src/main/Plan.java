@@ -1,3 +1,4 @@
+package Calculate_Rate;
 public class Plan {
 	private double excessminuterate;
 	private double includedMinutes;
