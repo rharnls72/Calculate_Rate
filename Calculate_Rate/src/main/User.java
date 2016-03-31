@@ -9,6 +9,6 @@ public class User {
 		this.minutesofuse = minutesofuse;
 	}
 	public String getType() {return type;}
-											public int getNumberofline() {return numberofline;}
-											public double getMinutesofuse() {return minutesofuse;}
+	public int getNumberofline() {return numberofline;}
+	public double getMinutesofuse() {return minutesofuse;}
 }	
