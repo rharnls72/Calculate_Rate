@@ -1,4 +1,4 @@
-public class User c class User {
+public class User {
 	private String type;
 	private int numberofline;
 	private double minutesofuse;
@@ -7,8 +7,8 @@ public class User c class User {
 		this.type=type;
 		this.numberofline = numberofline;
 		this.minutesofuse = minutesofuse;
-											}
-											public String getType() {return type;}
+	}
+	public String getType() {return type;}
 											public int getNumberofline() {return numberofline;}
 											public double getMinutesofuse() {return minutesofuse;}
 }	
