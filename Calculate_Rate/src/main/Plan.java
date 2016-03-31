@@ -1,34 +1,34 @@
 public class Plan {
-	private double excessminute_rate;
+	private double excessminuterate;
 	private double includedMinutes;
-	private double additional_rate;
+	private double additionalrate;
 	private double planrate;
 	Gold gold;
 	Silver silver;
 	public Plan(User user){
 		if("GOLD".equals(user.getType())){
 			gold = new Gold();
-			this.excessminute_rate = gold.getExcessminute_rate();
+			this.excessminuterate = gold.getExcessminuterate();
 			this.includedMinutes = gold.getIncludedMinutes();
-			this.additional_rate = gold.getAdditional_rate();
+			this.additionalrate = gold.getAdditionalrate();
 			this.planrate = gold.getPlanrate();
 		}else if("SILVER".equals(user.getType())){
 			silver = new Silver();
-			this.excessminute_rate = silver.getExcessminute_rate();
+			this.excessminuterate = silver.getExcessminuterate();
 			this.includedMinutes = silver.getIncludedMinutes();
-			this.additional_rate = silver.getAdditional_rate();
+			this.additionalrate = silver.getAdditionalrate();
 			this.planrate = silver.getPlanrate();
 		}
 	}
 
-	public double getExcessminute_rate() {
-		return excessminute_rate; //추가시간에대한 요금
+	public double getExcessminuterate() {
+		return excessminuterate; //추가시간에대한 요금
 	}
 	public double getIncludedMinutes() {
 		return includedMinutes; //기본시간
 	}
-	public double getAdditional_rate() {
-		return additional_rate;
+	public double getAdditionalrate() {
+		return additionalrate;
 	}
 	public double getPlanrate() {
 		return planrate;
