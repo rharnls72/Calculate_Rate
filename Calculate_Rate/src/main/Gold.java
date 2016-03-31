@@ -1,4 +1,4 @@
-package Calculate_Rate;
+package src/main;
 public class Gold {
 	private double gexcessminuterate = 0.45;
 	private double gincludedMinutes = 1000;
