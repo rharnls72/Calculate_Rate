@@ -1,3 +1,4 @@
+package Calculate_Rate;
 public class Main {
 	private Main() {
 		
