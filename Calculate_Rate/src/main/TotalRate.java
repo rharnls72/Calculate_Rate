@@ -1,6 +1,6 @@
 package src/main;
 public class TotalRate {
-	private User userer user;
+	private User user;
 	private Plan plan;
 	private double excessminute;
 	private double familyrate;
