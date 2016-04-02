@@ -7,7 +7,7 @@ public class Main {
 		TotalRate totalrate;
 		logger.log("Type : ");
 		Scanner input = new Scanner(System.in);
-		String type = input.nextLine();
+		String type = input.nextLine().toUpperCase();
 		logger.log("Line : ");
 		int line = input.nextInt();
 		logger.log("Minutes : ");
